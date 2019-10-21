@@ -1,0 +1,15 @@
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\bin\Debug\netstandard2.0\AppCaballeroCinema.deps.json
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\bin\Debug\netstandard2.0\AppCaballeroCinema.dll
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.csprojAssemblyReference.cache
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\Views\CarteleraPage.xaml.g.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\Views\FuncionesPage.xaml.g.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\Views\ResumenPage.xaml.g.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.csproj.CoreCompileInputs.cache
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.AssemblyInfoInputs.cache
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.AssemblyInfo.cs
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\bin\Debug\netstandard2.0\AppCaballeroCinema.pdb
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\XamlC.stamp
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.dll
+C:\MyProjects\AppCaballeroCinema\AppCaballeroCinema\obj\Debug\netstandard2.0\AppCaballeroCinema.pdb

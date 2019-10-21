@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCaballeroCinema.Views.FuncionesPage">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Titulo: "/>
+            <Label Text="{Binding Nombre}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Fecha: "/>
+            <Label Text="{Binding FechaActual}"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Cantidad de Boletas: "/>
+            <Entry x:Name="CantidadBoletas" Keyboard="Numeric"/>
+        </StackLayout>
+        <ListView ItemsSource="{Binding Funciones}" ItemSelected="Funcion_Selected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Cinema}"/>
+                                <Label Text=" - "/>
+                                <Label Text="{Binding Sala}"/>
+                                <Label Text=" - "/>
+                                <Label Text="{Binding Ciudad}"/>
+                            </StackLayout>
+                            <Label Text="{Binding Precio}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

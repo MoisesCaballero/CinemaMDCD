@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCaballeroCinema.Views.CarteleraPage"
+             Title="Cartelera">
+    
+    <ListView x:Name="ListPeliculas" HasUnevenRows="True" ItemSelected="Pelicula_Selected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Image Source="{Binding Imagen}" WidthRequest="180" HeightRequest="160"/>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Nombre}"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Estreno: "/>
+                                <Label Text="{Binding FechaEstreno}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Genero: "/>
+                                <Label Text="{Binding Genero}"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Recomendacion}"/>
+                                <Label Text="{Binding Duracion}"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

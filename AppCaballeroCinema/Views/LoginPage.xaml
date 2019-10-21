@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppCaballeroCinema.Views.LoginPage">
+
+    <ContentPage.Content>
+        <Grid>
+
+            <Image Source="fondo9.jpg" Aspect="AspectFill"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                
+
+                <StackLayout Grid.Row="1" Padding="30,20">
+                    <Image Grid.Row="0" Source="logoCinema1.jpg" WidthRequest="200" HeightRequest="200" Margin="0,50,0,30"/>
+                    <Entry x:Name="Usuario" Placeholder="Ingrese Usuario" PlaceholderColor="White"/>
+                    <Entry x:Name="Password" Placeholder="Ingrese Contraseña" PlaceholderColor="White" IsPassword="True"/>
+                    <Button Text="Ingresar" BackgroundColor="White" CornerRadius="20" TextColor="DarkCyan" Clicked="Ingresar_Click"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="¿Recuperar Contraseña?" FontAttributes="Italic" TextColor="White"/>
+                        <Label Text="Registrarse" HorizontalOptions="EndAndExpand" FontAttributes="Bold" TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2" HorizontalOptions="Center" Margin="0,0,0,70">
+                    <Label Text="Iniciar Sesion con" HorizontalOptions="Center" TextColor="White"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Image Grid.Row="0" Source="C:\Users\David Caballero\source\repos\FarmaciaApp\FarmaciaApp.Android\Resources\drawable\Facebook.png" WidthRequest="70" HeightRequest="70"/>
+                        <Image Grid.Row="0" Source="C:\Users\David Caballero\source\repos\FarmaciaApp\FarmaciaApp.Android\Resources\drawable\Insta.png" WidthRequest="80" HeightRequest="80"/>
+                        <Image Grid.Row="0" Source="C:\Users\David Caballero\source\repos\FarmaciaApp\FarmaciaApp.Android\Resources\drawable\twitter.png" WidthRequest="60" HeightRequest="60"/>
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Grid>
+
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>
